@@ -2,14 +2,14 @@ import React from 'react';
 import './style_home.css';
 
 // Import Containers
-import Header from '../../Containers/Header/Header.jsx';
+import Card from '../../containers/Card/Card.jsx';
 
 // Import Components
 const Home = (props) => {
   return (
     <div>
-      <Header />
-      <p> Home </p>
+      <p> Home Page </p>
+      <Card title='My first Card' imgSrc='test_img.png'/>
     </div>
   );
 }
