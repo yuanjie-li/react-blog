@@ -2,3 +2,15 @@
   background: #fff;
   padding: 10px 0;
 }
+
+.thumbCard {
+  background: #fff;
+  padding: 10px 0;
+}
+
+.bannerCard {
+  background: #fff;
+  padding: 10px 10px;
+  height: 7rem;
+  overflow: hidden;
+}

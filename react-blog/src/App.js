@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import testImg from './images/test_img.png';
 // Import Pages
 import Home from './pages/Home/Home.jsx';
 
@@ -15,10 +14,6 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <div>
-        <img src={testImg} />
-        <p>Image above</p>
-      </div>
     </div>
   );
 }
