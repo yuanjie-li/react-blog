@@ -42,7 +42,7 @@ const Card = (props) => {
   return (
     <div className={cardType}>
       {/* Title */}
-      <Title>
+      <Title className='title'>
         {props.title}
       </Title>
 

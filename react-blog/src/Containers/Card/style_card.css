@@ -10,7 +10,11 @@
 
 .bannerCard {
   background: #fff;
-  padding: 10px 10px;
   height: 7rem;
   overflow: hidden;
+}
+
+.title {
+  color: white;
+  position: absolute;
 }
